@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Drivers"
+		},
+		"[font-size='subheader']": {
+			"innertext": "My Drivers"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "Name or Phone Number"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Driver Scoring Matrix"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Bulk Upload"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Add Driver"
+		},
+		"th p": {
+			"innertexts": [
+				"Name",
+				"Phone Number",
+				"Vehicle Number",
+				"Vehicle Registration Number",
+				"License Number",
+				"Guarantor Name",
+				"Guarantor Phone Number",
+				"Actions"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Add Driver",
+				"Name*",
+				"Country",
+				"Phone Number*",
+				"Aadhar Number",
+				"License Number",
+				"License Issue Date",
+				"License Expiry Date",
+				"Tracking ID",
+				"Guarantor Name",
+				"Country",
+				"Guarantor Phone Number",
+				"Add Attachments",
+				"Profile picture",
+				"PAN Card",
+				"Driving License",
+				"Miscellaneous"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "Cancel"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Add Driver"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "Required"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Please enter valid phone number"
+		}
+	}
+}

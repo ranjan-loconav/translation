@@ -1,0 +1,7 @@
+{
+	"InitPage": {
+		"username": "#username",
+		"password": "#password",
+		"loginbtn": "#login-btn"
+	}
+}

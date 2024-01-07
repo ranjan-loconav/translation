@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Pemandu"
+		},
+		"[font-size='subheader']": {
+			"innertext": "Pemandu Saya"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "Nama atau Nombor Telefon"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Matriks Penskoran Pemandu"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Muat Naik Pukal"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Tambah Pemandu"
+		},
+		"th p": {
+			"innertexts": [
+				"Nama",
+				"Nombor Telefon",
+				"Nombor Kenderaan",
+				"Vehicle Registration Number",
+				"Nombor Lesen",
+				"Nama Penjamin",
+				"Nombor Telefon Penjamin",
+				"Tindakan"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Tambah Pemandu",
+				"Nama*",
+				"Negara",
+				"Nombor Telefon*",
+				"Nombor Aadhar",
+				"Nombor Lesen",
+				"Tarikh Keluaran Lesen",
+				"Tarikh Tamat Tempoh Lesen",
+				"ID Penjejakan",
+				"Nama Penjamin",
+				"Negara",
+				"Nombor Telefon Penjamin",
+				"Tambah Lampiran",
+				"Gambar profil",
+				"Kad PAN",
+				"Lesen Memandu",
+				"Pelbagai"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "Batal"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Tambah Pemandu"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "Diperlukan"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Sila masukkan nombor telefon yang sah"
+		}
+	}
+}

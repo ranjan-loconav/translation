@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Conducteurs"
+		},
+		"[font-size='subheader']": {
+			"innertext": "Mes conducteurs"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "Nom ou numéro de téléphone"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Matrice de notation des pilotes"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Téléchargement groupé"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Ajouter un conducteur"
+		},
+		"th p": {
+			"innertexts": [
+				"Nom",
+				"Numéro de téléphone",
+				"Numéro de véhicule",
+				"Vehicle Registration Number",
+				"Numéro de la licence",
+				"Nom du garant",
+				"Numéro de téléphone du garant",
+				"Actions"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Ajouter un conducteur",
+				"Nom*",
+				"Pays",
+				"Numéro de téléphone*",
+				"Numéro Aadhar",
+				"Numéro de la licence",
+				"Date d'émission de la licence",
+				"Date d'expiration de la licence",
+				"ID de suivi",
+				"Nom du garant",
+				"Pays",
+				"Numéro de téléphone du garant",
+				"Ajouter des pièces jointes",
+				"Photo de profil",
+				"Carte PAN",
+				"Permis de conduire",
+				"Divers"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "Annuler"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Ajouter un conducteur"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "obligatoire"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Veuillez saisir un numéro de téléphone valide"
+		}
+	}
+}

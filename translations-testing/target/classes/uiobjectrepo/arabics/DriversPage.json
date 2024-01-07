@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "السائقين"
+		},
+		"[font-size='subheader']": {
+			"innertext": "سائقيني"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "الاسم أو رقم الهاتف"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "مصفوفة تسجيل السائقين"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "رفع بالجملة"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "إضافة سائق"
+		},
+		"th p": {
+			"innertexts": [
+				"الاسم",
+				"رقم الهاتف",
+				"رقم المركبة",
+				"Vehicle Registration Number",
+				"رقم الرخصة",
+				"اسم الضامن",
+				"رقم هاتف الضامن",
+				"الإجراءات"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"إضافة سائق",
+				"الاسم*",
+				"دولة",
+				"رقم الهاتف*",
+				"رقم Aadhar",
+				"رقم الرخصة",
+				"تاريخ اصدار الرخصة",
+				"تاريخ انتهاء الترخيص",
+				"معرف التتبع",
+				"اسم الضامن",
+				"دولة",
+				"رقم هاتف الضامن",
+				"إضافة مرفقات",
+				"الصورة الشخصية",
+				"ببطاقة الرقم الدائم",
+				"رخصة قيادة",
+				"منوعات"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "إلغاء"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "إضافة سائق"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "مطلوب"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "يُرجى إدخال رقم هاتف صحيح"
+		}
+	}
+}

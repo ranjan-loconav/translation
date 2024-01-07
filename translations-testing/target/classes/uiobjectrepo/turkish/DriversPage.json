@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Sürücüler"
+		},
+		"[font-size='subheader']": {
+			"innertext": "Sürücülerim"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "İsim veya Telefon Numarası"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Sürücü Puanlama Matrisi"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Toplu Yükleme"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Sürücü Ekle"
+		},
+		"th p": {
+			"innertexts": [
+				"İsim",
+				"Telefon Numarası",
+				"Araç Numarası",
+				"Vehicle Registration Number",
+				"Ehliyet Numarası",
+				"Kefil Adı",
+				"Kefil Telefon Numarası",
+				"İşlemler"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Sürücü Ekle",
+				"İsim*",
+				"Ülke",
+				"Telefon Numarası*",
+				"Kimlik Numarası",
+				"Ehliyet Numarası",
+				"Ehliyet Veriliş Tarihi",
+				"Ehliyet Bitiş Tarihi",
+				"Takip Kimliği",
+				"Kefil Adı",
+				"Ülke",
+				"Kefil Telefon Numarası",
+				"Ekleri Ekle",
+				"Profil fotoğrafı",
+				"Vergi Numarası Kartı",
+				"Sürücü Ehliyeti",
+				"Muhtelif"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "İptal et"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Sürücü Ekle"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "Gerekli"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Lütfen geçerli telefon numarası girin"
+		}
+	}
+}

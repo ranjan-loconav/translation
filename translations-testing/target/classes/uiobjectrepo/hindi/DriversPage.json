@@ -1,0 +1,77 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "ड्राइवर"
+		},
+		"[font-size='subheader']": {
+			"innertext": "मेरे ड्राइवर"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "नाम या फोन नंबर"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "ड्राइवर स्कोरिंग मैट्रिक्स"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "बल्क अपलोड"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "ड्राइवर जोड़ें"
+		},
+		"th p": {
+			"innertexts": [
+				"नाम",
+				"फोन नम्बर",
+				"वाहन संख्या",
+				"Vehicle Registration Number",
+				"लाइसेंस नंबर",
+				"गारंटर का नाम",
+				"गारंटर का फोन नंबर",
+				"कार्य"
+			]
+		}
+	
+
+		
+	},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"ड्राइवर जोड़ें",
+				"नाम*",
+				"देश",
+				"फोन नम्बर*",
+				"आधार संख्या",
+				"लाइसेंस नंबर",
+				"लाइसेंस जारी होने की तिथि",
+				"लाइसेंस समापन दिनांक",
+				"ट्रैकिंग ID",
+				"गारंटर का नाम",
+				"देश",
+				"गारंटर का फोन नंबर",
+				"संलग्नक जोड़ें",
+				"प्रोफ़ाइल चित्र",
+				"पैन कार्ड",
+				"ड्राइविंग लाइसेंस",
+				"विविध"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "रद्द करें"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "ड्राइवर जोड़ें"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "आवश्यक"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "एक वैध फ़ोन नंबर दर्ज करें"
+		}
+	}
+}

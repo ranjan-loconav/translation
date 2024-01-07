@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "ผู้ขับ"
+		},
+		"[font-size='subheader']": {
+			"innertext": "ผู้ขับของฉัน"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "ชื่อหรือหมายเลขโทรศัพท์"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "ตารางคะแนนผู้ขับ"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "การอัพโหลดปริมาณมาก"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "เพิ่มผู้ขับ"
+		},
+		"th p": {
+			"innertexts": [
+				"ชื่อ",
+				"หมายเลขโทรศัพท์",
+				"หมายเลขของยานพาหนะ",
+				"Vehicle Registration Number",
+				"หมายเลขใบอนุญาต",
+				"ชื่อผู้ค้ำประกัน",
+				"หมายเลขโทรศัพท์ของผู้ค้ำประกัน",
+				"การดำเนินการ"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"เพิ่มผู้ขับ",
+				"ชื่อ*",
+				"ประเทศ",
+				"หมายเลขโทรศัพท์*",
+				"รหัสประจำตัว (Aadhaar)",
+				"หมายเลขใบอนุญาต",
+				"วันที่ออกใบอนุญาต",
+				"วันที่ใบอนุญาตหมดอายุ",
+				"รหัสการติดตาม",
+				"ชื่อผู้ค้ำประกัน",
+				"ประเทศ",
+				"หมายเลขโทรศัพท์ของผู้ค้ำประกัน",
+				"เพิ่มส่วนเพิ่มเติม",
+				"ภาพโพรไฟล์",
+				"บัตรหมายเลขบัญชีถาวร (PAN)",
+				"ใบขับขี่",
+				"เบ็ดเตล็ด"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "ยกเลิก"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "เพิ่มผู้ขับ"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "ที่ต้องการ"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "โปรดกรอกหมายเลขโทรศัพท์มือถือที่ถูกต้อง"
+		}
+	}
+}

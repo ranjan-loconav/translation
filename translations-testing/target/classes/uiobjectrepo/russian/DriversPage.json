@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Водители"
+		},
+		"[font-size='subheader']": {
+			"innertext": "Мои водители"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "Имя или номер телефона"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Матрица оценки водителей"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Массовая загрузка"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Добавить водителя"
+		},
+		"th p": {
+			"innertexts": [
+				"Имя",
+				"Номер телефона",
+				"Номер объекта",
+				"Vehicle Registration Number",
+				"Номер лицензии",
+				"Имя поручителя",
+				"Номер телефона поручителя",
+				"Действия"
+			]
+		}
+	},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Добавить водителя",
+				"Имя*",
+				"Страна",
+				"Номер телефона*",
+				"Номер карты Aadhar",
+				"Номер лицензии",
+				"Дата выдачи лицензии",
+				"Дата истечения срока действия лицензии",
+				"Идентификатор для отслеживания",
+				"Имя поручителя",
+				"Страна",
+				"Номер телефона поручителя",
+				"Добавить вложения",
+				"Фото профиля",
+				"Карта PAN",
+				"Водительское удостоверение",
+				"Разное"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "Отмена"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Добавить водителя"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "Требуется"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Введите действующий номер телефона"
+		}
+	}
+}

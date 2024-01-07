@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Lái Xe"
+		},
+		"[font-size='subheader']": {
+			"innertext": "Lái Xe Của Tôi"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "Tên Hoặc Số Điện Thoại"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Ma Trận Chấm Điểm Người Lái"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Tải Lên Hàng Loạt"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Thêm Lái Xe"
+		},
+		"th p": {
+			"innertexts": [
+				"Tên",
+				"Số Điện Thoại",
+				"Số Xe",
+				"Vehicle Registration Number",
+				"Số Giấy Phép",
+				"Tên Người Bảo Lãnh",
+				"Số Điện Thoại Của Người Bảo Lãnh",
+				"Hành Động"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Thêm Lái Xe",
+				"Tên*",
+				"Quốc Gia",
+				"Số Điện Thoại*",
+				"Số Aadhar",
+				"Số Giấy Phép",
+				"Ngày Cấp Giấy Phép",
+				"Ngày Hết Hạn Giấy Phép",
+				"ID Theo Dõi",
+				"Tên Người Bảo Lãnh",
+				"Quốc Gia",
+				"Số Điện Thoại Của Người Bảo Lãnh",
+				"Thêm Tệp Đính Kèm",
+				"Ảnh hồ sơ",
+				"Thẻ PAN",
+				"Bằng Lái",
+				"Khác"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "Hủy"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Thêm Lái Xe"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "Bắt buộc"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Vui lòng nhập số điện thoại hợp lệ"
+		}
+	}
+}

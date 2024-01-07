@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Fahrer"
+		},
+		"[font-size='subheader']": {
+			"innertext": "Meine Fahrer"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "Name oder Telefonnummer"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Fahrer-Bewertungsmatrix"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Massen-Upload"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Fahrer hinzufügen"
+		},
+		"th p": {
+			"innertexts": [
+				"Name",
+				"Telefonnummer",
+				"Fahrzeugnummer",
+				"Vehicle Registration Number",
+				"Lizenznummer",
+				"Name des Garantiegebers",
+				"Telefonnummer des Garantiegebers",
+				"Aktionen"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Fahrer hinzufügen",
+				"Name*",
+				"Land",
+				"Telefonnummer*",
+				"Aadhar -Nummer",
+				"Lizenznummer",
+				"Ausstellungsdatum der Lizenz",
+				"Ablaufdatum der Lizenz",
+				"Verfolgungs-ID",
+				"Name des Garantiegebers",
+				"Land",
+				"Telefonnummer des Garantiegebers",
+				"Anhänge hinzufügen",
+				"Profilbild",
+				"Pan -Karte",
+				"Führerschein",
+				"Sonstiges"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "Abbrechen"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Fahrer hinzufügen"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "Erforderlich"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Bitte gültige Telefonnummer eingeben"
+		}
+	}
+}

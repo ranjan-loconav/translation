@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "ਡਰਾਈਵਰ"
+		},
+		"[font-size='subheader']": {
+			"innertext": "ਮੇਰੇ ਡਰਾਈਵਰ"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "ਨਾਮ ਜਾਂ ਫ਼ੋਨ ਨੰਬਰ"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "ਡਰਾਈਵਰ ਸਕੋਰਿੰਗ ਮੈਟ੍ਰਿਕਸ"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "ਬਲਕ ਅਪਲੋਡ"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "ਡ੍ਰਾਈਵਰ ਜੋੜੋ"
+		},
+		"th p": {
+			"innertexts": [
+				"ਨਾਮ",
+				"ਫੋਨ ਨੰਬਰ",
+				"ਵਾਹਨ ਨੰਬਰ",
+				"Vehicle Registration Number",
+				"ਲਾਇਸੰਸ ਨੰਬਰ",
+				"ਗਾਰੰਟਰ ਦਾ ਨਾਮ",
+				"ਗਾਰੰਟਰ ਫ਼ੋਨ ਨੰਬਰ",
+				"ਕਾਰਵਾਈ"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"ਡ੍ਰਾਈਵਰ ਜੋੜੋ",
+				"ਨਾਮ*",
+				"ਦੇਸ਼",
+				"ਫੋਨ ਨੰਬਰ*",
+				"ਆਧਾਰ ਨੰਬਰ",
+				"ਲਾਇਸੰਸ ਨੰਬਰ",
+				"ਲਾਇਸੰਸ ਜਾਰੀ ਕਰਨ ਦੀ ਮਿਤੀ",
+				"ਲਾਇਸੈਂਸ ਦੀ ਮਿਆਦ ਪੁੱਗਣ ਦੀ ਤਾਰੀਖ",
+				"ਟਰੈਕਿੰਗ ਆਈ.ਡੀ",
+				"ਗਾਰੰਟਰ ਦਾ ਨਾਮ",
+				"ਦੇਸ਼",
+				"ਗਾਰੰਟਰ ਫ਼ੋਨ ਨੰਬਰ",
+				"ਅਟੈਚਮੈਂਟ ਜੋੜੋ:",
+				"ਪ੍ਰੋਫਾਈਲ ਦੀ ਤਸਵੀਰ",
+				"ਪੈਨ ਕਾਰਡ",
+				"ਡ੍ਰਾਇਵਿੰਗ ਲਾਇਸੇੰਸ",
+				"ਵਿਵਿਧ"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "ਰੱਦ ਕਰੋ"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "ਡ੍ਰਾਈਵਰ ਜੋੜੋ"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "ਲੋੜੀਂਦਾ ਹੈ"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "ਕਿਰਪਾ ਕਰਕੇ ਮੰਨਣਯੋਗ ਫ਼ੋਨ ਨੰਬਰ ਭਰੋ"
+		}
+	}
+}

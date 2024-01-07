@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Pengemudi"
+		},
+		"[font-size='subheader']": {
+			"innertext": "Pengemudi Saya"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "Nama atau Nomor Telepon"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Matriks Skor Pengemudi"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Unggah Massal"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Tambahkan Pengemudi"
+		},
+		"th p": {
+			"innertexts": [
+				"Nama",
+				"Nomor Telepon",
+				"Nomor Kendaraan",
+				"Vehicle Registration Number",
+				"Nomor Lisensi",
+				"Nama Penjamin",
+				"Nomor Telepon Penjamin",
+				"Tindakan"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Tambahkan Pengemudi",
+				"Nama*",
+				"Negara",
+				"Nomor Telepon*",
+				"Nomor Aadhar",
+				"Nomor Lisensi",
+				"Tanggal Penerbitan Lisensi",
+				"Tanggal Kedaluwarsa Lisensi",
+				"ID Pelacakan",
+				"Nama Penjamin",
+				"Negara",
+				"Nomor Telepon Penjamin",
+				"Tambahkan Lampiran",
+				"Foto profil",
+				"Kartu PAN",
+				"SIM",
+				"Lain-lain"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "Batal"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Tambahkan Pengemudi"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "Diperlukan"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Masukkan nomor telepon yang valid"
+		}
+	}
+}

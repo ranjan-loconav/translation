@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Conductores"
+		},
+		"[font-size='subheader']": {
+			"innertext": "Mis conductores"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "Nombre o número de teléfono"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Matriz de puntuación del conductor"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Registro masivo"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Agregar controlador"
+		},
+		"th p": {
+			"innertexts": [
+				"Nombre",
+				"Número de teléfono",
+				"Número de vehículo",
+				"Vehicle Registration Number",
+				"Número de licencia",
+				"Nombre del aval",
+				"Número de teléfono del aval",
+				"Acciones"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Agregar controlador",
+				"Nombre*",
+				"País",
+				"Número de teléfono*",
+				"Número Aadhaar",
+				"Número de licencia",
+				"Fecha de emisión de la licencia",
+				"Fecha de caducidad de la licencia",
+				"ID de rastreo",
+				"Nombre del aval",
+				"País",
+				"Número de teléfono del aval",
+				"Agregar adjuntos",
+				"Imagen de perfil",
+				"Tarjeta PAN",
+				"Licencia de conducir",
+				"Varios"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "Cancelar"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Agregar controlador"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "Requerido"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Introduzca un número de teléfono válido"
+		}
+	}
+}

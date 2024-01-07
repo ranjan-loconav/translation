@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Motoristas"
+		},
+		"[font-size='subheader']": {
+			"innertext": "Meus Motoristas"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "Nome ou Número de Telefone"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Matriz de Pontuação do Motorista"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Carregamento em massa"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Adicionar Motorista"
+		},
+		"th p": {
+			"innertexts": [
+				"Nome",
+				"Número de Telefone",
+				"Número de Veículo",
+				"Vehicle Registration Number",
+				"Número de Licença",
+				"Nome do fiador",
+				"Número de Telefone do Fiador",
+				"Ações"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Adicionar Motorista",
+				"Nome*",
+				"País",
+				"Número de Telefone*",
+				"Número Aadhar",
+				"Número de Licença",
+				"Data de emissão da licença",
+				"Data da expiração de licença",
+				"ID de rastreamento",
+				"Nome do fiador",
+				"País",
+				"Número de Telefone do Fiador",
+				"Adicionar anexos",
+				"imagem de Perfil",
+				"Cartão PAN",
+				"Carteira de Habilitação",
+				"Diversos"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "Cancelar"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Adicionar Motorista"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "Obrigatório"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Insira um número de telefone válido"
+		}
+	}
+}

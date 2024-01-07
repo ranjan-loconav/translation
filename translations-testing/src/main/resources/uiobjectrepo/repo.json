@@ -1,0 +1,18 @@
+{
+	"InitPage": {
+		"username": "#username",
+		"password": "#password",
+		"loginbtn": "#login-btn"
+	},
+	"HomePage": {
+		"mnuSideBar": "div.sidebar-item",
+		"mnuMainMenu": "div.sidebar-item>>text=MAINMENU",
+		"mnuSubMenu": "div.sidebar-expand-item>>text=SUBMENU"
+	},
+	"MyDriversPage": {
+		"btnAddDriver": "button[data-qa='add-driver']",
+		"cmbCountry": ".phoneNumber-country-select__input",
+		"optCountry": "text=COUNTRY",
+		"btnSaveDriver": "[data-qa='save-driver']"
+	}
+}

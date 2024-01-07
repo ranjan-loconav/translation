@@ -1,0 +1,74 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "ড্রাইভারেরা"
+		},
+		"[font-size='subheader']": {
+			"innertext": "আমার ড্রাইভার"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "নাম বা ফোন নম্বর"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "ড্রাইভার স্কোরের ম্যাট্রিক্স"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "বাল্ক আপলোড"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "ড্রাইভার যোগ করুন"
+		},
+		"th p": {
+			"innertexts": [
+				"নাম",
+				"ফোন নম্বর",
+				"গাড়ির নম্বর",
+				"Vehicle Registration Number",
+				"লাইসেন্স নম্বর",
+				"গ্যারান্টরের নাম",
+				"গ্যারান্টরের ফোন নম্বর",
+				"পদক্ষেপসমূহ"
+			]
+		}
+},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"ড্রাইভার যোগ করুন",
+				"নাম*",
+				"দেশ",
+				"ফোন নম্বর*",
+				"আধার নম্বর",
+				"লাইসেন্স নম্বর",
+				"লাইসেন্স ইস্যুর তারিখ",
+				"লাইসেন্সের মেয়াদ শেষ হওয়ার তারিখ",
+				"ট্র্যাকিং ID",
+				"গ্যারান্টরের নাম",
+				"দেশ",
+				"গ্যারান্টরের ফোন নম্বর",
+				"সংযুক্তি যোগ করুন",
+				"প্রোফাইল ছবি",
+				"প্যান কার্ড",
+				"ড্রাইভিং লাইসেন্স",
+				"বিবিধ"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "বাতিল করুন"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "ড্রাইভার যোগ করুন"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "প্রয়োজনীয়"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Please select country code"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "অনুগ্রহ করে বৈধ ফোন নম্বর প্রবেশ করান"
+		}
+	}
+}
